@@ -1,0 +1,47 @@
+
+> agentflow-ai-server@1.0.0 dev
+> node --watch src/index.js run dev
+
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+c[32mRestarting 'src/index.js run dev'[39m
+[Database] MongoDB not detected. Activating in-memory storage fallback for seamless local operation.
+====================================================
+  🚀 Agentflow_AI Server running on port 5000
+  🔗 Client URL: http://localhost:3000
+  ⚡ Multi-Agent Orchestrator: Online
+====================================================
+[Queue] Redis not detected. Switched to in-memory async queue.
+[Socket.IO] Client connected: 6HpIll6KzOrd8a37AAAB
+c[32mRestarting 'src/index.js run dev'[39m
+[Database] MongoDB not detected. Activating in-memory storage fallback for seamless local operation.
+====================================================
+  🚀 Agentflow_AI Server running on port 5000
+  🔗 Client URL: http://localhost:3000
+  ⚡ Multi-Agent Orchestrator: Online
+====================================================
+[Queue] Redis not detected. Switched to in-memory async queue.
+[Socket.IO] Client connected: fChlEoze9ukg2P_GAAAB
+[0mPOST /api/auth/register [32m201[0m 768.848 ms - 531[0m
+[Socket.IO] Socket fChlEoze9ukg2P_GAAAB joined user:933e1ab4-21d1-4a47-beb8-11ac20537c2e
+[0mGET /api/notifications [32m200[0m 9.414 ms - 26[0m
+[0mGET /api/health [32m200[0m 1.688 ms - 373[0m
+[0mGET /api/workflows/dashboard [32m200[0m 6.846 ms - 264[0m
+[Socket.IO] Client disconnected: fChlEoze9ukg2P_GAAAB
+[31mFailed running 'src/index.js run dev'. Waiting for file changes before restarting...[39m

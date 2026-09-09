@@ -1,0 +1,55 @@
+# ==========================================
+# Agentflow_AI Root .gitignore
+# ==========================================
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+.pnp
+.pnp.js
+
+# Environment Files & Secrets (NEVER COMMIT SENSITIVE KEYS)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+client/.env
+client/.env.local
+*.env
+*.env.*
+!.env.example
+!server/.env.example
+!client/.env.example
+
+# Next.js Build Output
+.next/
+client/.next/
+out/
+client/out/
+build/
+dist/
+
+# Debug Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary & Scratch Files
+tmp/
+temp/
+.temp/

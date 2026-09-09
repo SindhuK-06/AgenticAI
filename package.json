@@ -1,0 +1,16 @@
+{
+  "name": "agentflow-ai",
+  "version": "1.0.0",
+  "description": "Agentic AI Automation Platform (Agentflow_AI)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "install:server": "npm --prefix server install",
+    "install:client": "npm --prefix client install",
+    "server:dev": "npm --prefix server run dev",
+    "client:dev": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "test": "npm --prefix server test"
+  },
+  "keywords": ["agentic", "ai", "automation", "workflow", "langgraph", "reactflow"]
+}
